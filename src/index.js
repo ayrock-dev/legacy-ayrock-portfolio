@@ -1,8 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import App from './components/App';
+import registerServiceWorker from './components/registerServiceWorker';
+
 import 'semantic-ui-css/semantic.min.css';
-import App from './components/App/App';
-import registerServiceWorker from './components/registerServiceWorker/registerServiceWorker';
+import './styles/index.css';
 
 ReactDOM.render(
     <App />, 

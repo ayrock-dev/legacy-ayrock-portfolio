@@ -12,7 +12,7 @@ import {
   Segment,
   Visibility,
 } from 'semantic-ui-react'
-import FixedMenu from '../FixedMenu/FixedMenu'
+import FixedMenu from './FixedMenu'
 
 export default class HomepageLayout extends Component {
     state = {}
