@@ -1,8 +1,5 @@
-// vars
-@import 'variables';
-
-// page
-@import 'body';
+// style framework
+@import 'bulma/bulma';
 
 // components
-@import 'App';
+@import 'components/HomeHero';
