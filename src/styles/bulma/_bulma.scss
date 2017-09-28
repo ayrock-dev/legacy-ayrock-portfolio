@@ -1,5 +1,5 @@
-@import "../../../node_modules/bulma/sass/utilities/initial-variables";
+@import "./bulma/sass/utilities/initial-variables";
 
-@import 'variables';
+@import 'bulma-overrides';
 
-@import "../../../node_modules/bulma/bulma";
+@import "./bulma/bulma";
