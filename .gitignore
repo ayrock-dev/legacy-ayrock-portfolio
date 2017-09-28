@@ -22,3 +22,6 @@ yarn-error.log*
 
 # generated css
 src/**/*.css
+
+# vscode ide files
+.vscode
