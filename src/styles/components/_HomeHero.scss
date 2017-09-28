@@ -1,0 +1,7 @@
+.title .fades {
+    transition: opacity 500ms linear;
+
+    &.fading {
+        opacity: 0;
+    }
+}
