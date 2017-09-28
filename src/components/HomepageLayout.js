@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import HomeHero from './HomeHero'
+import Footer from './Footer'
 
 export default class HomepageLayout extends Component {
     render() {
@@ -22,6 +23,7 @@ export default class HomepageLayout extends Component {
               </h2>
             </div>
           </section>
+          <Footer />
         </div>
       );
     }
