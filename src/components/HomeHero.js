@@ -1,11 +1,12 @@
 import React, { Component } from 'react'
+import BulmaBurger from './bulma/BulmaBurger'
 
 const personas = [
   'a JavaScript Guru',
   'a Front End Developer',
   'a Game Modder',
   'an Open Source Contributer',
-  'a Full Stack Developer',
+  'a Full Stack Enthusiast',
   'an Agile Team Member'
 ]
 
@@ -47,24 +48,20 @@ export default class HomeHero extends Component {
     const { fading, personaText } = this.state
 
     return (
-      <section className="hero is-primary is-fullheight">
+      <section id="top" className="hero is-primary is-fullheight">
         {/* Hero header: will stick at the top */}
         <div id="top" className="hero-head">
           <header className="nav">
             <div className="container">
-              <span className="nav-toggle">
-                <span></span>
-                <span></span>
-                <span></span>
-              </span>
-              <div className="nav-right nav-menu">
-                <a className="nav-item is-active" href="#top">
+              <BulmaBurger />
+              <div id="primary-nav" className="nav-right nav-menu">
+                <a className="nav-item" href="#top">
                   Home
                 </a>
                 <a className="nav-item" href="#objective">
                   Objective
                 </a>
-                <a className="nav-item">
+                <a className="nav-item" href="#portfolio">
                   Portfolio
                 </a>
                 <span className="nav-item">

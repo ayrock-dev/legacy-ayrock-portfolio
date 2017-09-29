@@ -1,7 +1,10 @@
 footer {
-    .icon.is-medium {
-        color: $text;
+    .icon {
         font-size: $size-4;
         vertical-align: middle;
+
+        &.no-color-change {
+            color: $text;
+        }
     }
 }
