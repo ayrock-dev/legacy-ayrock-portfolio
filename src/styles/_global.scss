@@ -1,0 +1,9 @@
+.brand-logo {
+    width:86px;
+    height: 28px;
+    background: url(../img/brand.png) no-repeat no-repeat;
+
+    &.inverted {
+        background: url(../img/brand-inverted.png) no-repeat no-repeat;
+    }
+}

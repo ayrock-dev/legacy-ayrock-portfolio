@@ -1,2 +1,10 @@
 $title-weight: $weight-light;
 $subtitle-weight: $weight-light;
+
+.hero.is-primary {
+    .navbar {
+        &.is-transparent {
+            background-color: transparent
+        }
+    }
+}
