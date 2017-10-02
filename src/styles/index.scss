@@ -5,6 +5,9 @@
 $fa-font-path: "../../node_modules/font-awesome/fonts";
 @import './font-awesome/scss/font-awesome';
 
+// globals
+@import 'global';
+
 // components
 @import 'components/HomeHero';
 @import 'components/Footer';

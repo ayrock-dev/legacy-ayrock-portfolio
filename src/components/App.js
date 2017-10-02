@@ -1,17 +1,17 @@
-import React, { Component } from 'react';
-import {
-  BrowserRouter as Router,
-  Route,
-  Link
-} from 'react-router-dom'
-import HomepageLayout from './HomepageLayout'
+import React, { Component } from 'react'
+import { Switch, Route } from 'react-router-dom'
+import HomePageLayout from './HomePageLayout'
+import ContentPageLayout from './ContentPageLayout'
 
-class App extends Component {
+export default class App extends Component {
   render() {
     return (
-      <HomepageLayout />
-    );
+      <Switch>
+        <Route exact path='/'>
+          <HomePageLayout match={this.props.match} />
+        </Route>
+        <Route path='/portfolio' component={ContentPageLayout}/>
+      </Switch>
+    )
   }
 }
-
-export default App;
