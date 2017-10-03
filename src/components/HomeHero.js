@@ -46,12 +46,11 @@ export default class HomeHero extends Component {
 
   render() {
     const { fading, personaText } = this.state
-    const { match } = this.props
 
     return (
       <section className="hero is-primary is-bold is-fullheight">
         <div className="hero-head">
-          <Header match={match} />
+          <Header />
         </div>
         <div className="hero-body">
           <div className="container">
