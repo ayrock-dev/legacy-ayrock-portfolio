@@ -6,7 +6,6 @@ import PortfolioSection from './PortfolioSection'
 
 export default class HomePageLayout extends Component {
     render() {
-      const { match } = this.props
       return (
         <div>
           <HomeHero />
