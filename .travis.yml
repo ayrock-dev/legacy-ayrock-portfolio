@@ -13,8 +13,8 @@ cache:
   - node_modules
 install: true
 script:
- - yarn test
- - yarn build
+ - npm test
+ - npm run build
 deploy:
   provider: pages
   skip_cleanup: true
