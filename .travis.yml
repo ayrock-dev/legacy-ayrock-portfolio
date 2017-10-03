@@ -4,9 +4,10 @@ node_js:
 cache:
   directories:
   - node_modules
-install: true
+install: 
+  - yarn install
 script:
- - yarn build
+  - yarn build
 deploy:
   provider: pages
   skip_cleanup: true
