@@ -1,0 +1,252 @@
+[
+    {
+        "id": "001",
+        "title": "PulaTech",
+        "thumbUrl": "http://placehold.it/1280x960",
+        "description": "Implementation and design of WordPress-based marketing site for PulaTech.",
+        "bannerUrl": "",
+        "content": "long page content description lorum ipsum dolor sit amet",
+        "techIcons": [
+            {
+                "cssClass": "devicon-wordpress-plain",
+                "tooltip": "WordPress"
+            },
+            {
+                "cssClass": "devicon-bootstrap-plain colored",
+                "tooltip": "Bootstrap"
+            },
+            {
+                "cssClass": "devicon-sass-original colored",
+                "tooltip": "Sass"
+            },
+            {
+                "cssClass": "devicon-javascript-plain colored",
+                "tooltip": "JavaScript"
+            }
+        ]
+    },
+    {
+        "id": "002",
+        "title": "Winsor Learning",
+        "thumbUrl": "http://placehold.it/1280x960",
+        "description": "Implementation and design of Joomla!-based marketing site for Winsor Learning.",
+        "bannerUrl": "",
+        "content": "",
+        "techIcons": [
+            {
+                "cssClass": "devicon-html5-plain colored",
+                "tooltip": "HTML5"
+            },
+            {
+                "cssClass": "devicon-bootstrap-plain colored",
+                "tooltip": "Bootstrap"
+            },
+            {
+                "cssClass": "devicon-sass-original colored",
+                "tooltip": "Sass"
+            },
+            {
+                "cssClass": "devicon-javascript-plain colored",
+                "tooltip": "JavaScript"
+            }
+        ]
+    },
+    {
+        "id": "003",
+        "title": "Winsor Learning eCommerce",
+        "thumbUrl": "http://placehold.it/1280x960",
+        "description": "card description lorum ipsum . . .",
+        "bannerUrl": "",
+        "content": "",
+        "techIcons": [
+            {
+                "cssClass": "devicon-html5-plain colored",
+                "tooltip": "HTML5"
+            },
+            {
+                "cssClass": "devicon-bootstrap-plain colored",
+                "tooltip": "Bootstrap"
+            },
+            {
+                "cssClass": "devicon-sass-original colored",
+                "tooltip": "Sass"
+            },
+            {
+                "cssClass": "devicon-javascript-plain colored",
+                "tooltip": "JavaScript"
+            }
+        ]
+    },
+    {
+        "id": "004",
+        "title": "Sonday System Companion App",
+        "thumbUrl": "http://placehold.it/1280x960",
+        "description": "card description lorum ipsum . . .",
+        "bannerUrl": "",
+        "content": "",
+        "techIcons": [
+            {
+                "cssClass": "devicon-photoshop-plain colored",
+                "tooltip": "PhotoShop"
+            }
+        ]
+    },
+    {
+        "id": "005",
+        "title": "Rally Roll",
+        "thumbUrl": "http://placehold.it/1280x960",
+        "description": "card description lorum ipsum . . .",
+        "bannerUrl": "",
+        "content": "",
+        "techIcons": [
+            {
+                "cssClass": "devicon-photoshop-plain colored",
+                "tooltip": "PhotoShop"
+            }
+        ]
+    },
+    {
+        "id": "006",
+        "title": "Cambria DragonVision",
+        "thumbUrl": "http://placehold.it/1280x960",
+        "description": "card description lorum ipsum . . .",
+        "bannerUrl": "",
+        "content": "",
+        "techIcons": [
+            {
+                "cssClass": "devicon-angularjs-plain colored",
+                "tooltip": "Angular"
+            },
+            {
+                "cssClass": "devicon-bootstrap-plain colored",
+                "tooltip": "Bootstrap"
+            },
+            {
+                "cssClass": "devicon-sass-original colored",
+                "tooltip": "Sass"
+            },
+            {
+                "cssClass": "devicon-grunt-plain colored",
+                "tooltip": "Grunt"
+            }
+        ]
+    },
+    {
+        "id": "007",
+        "title": "Cambria Design Palette",
+        "thumbUrl": "http://placehold.it/1280x960",
+        "description": "card description lorum ipsum . . .",
+        "bannerUrl": "",
+        "content": "",
+        "techIcons": [
+            {
+                "cssClass": "devicon-angularjs-plain colored",
+                "tooltip": "Angular"
+            },
+            {
+                "cssClass": "devicon-bootstrap-plain colored",
+                "tooltip": "Bootstrap"
+            },
+            {
+                "cssClass": "devicon-sass-original colored",
+                "tooltip": "Sass"
+            },
+            {
+                "cssClass": "devicon-grunt-plain colored",
+                "tooltip": "Grunt"
+            }
+        ]
+    },
+    {
+        "id": "008",
+        "title": "Davis Family Dairies",
+        "thumbUrl": "http://placehold.it/1280x960",
+        "description": "card description lorum ipsum . . .",
+        "bannerUrl": "",
+        "content": "",
+        "techIcons": [
+            {
+                "cssClass": "devicon-wordpress-plain",
+                "tooltip": "WordPress"
+            },
+            {
+                "cssClass": "devicon-bootstrap-plain colored",
+                "tooltip": "Bootstrap"
+            },
+            {
+                "cssClass": "devicon-sass-original colored",
+                "tooltip": "Sass"
+            },
+            {
+                "cssClass": "devicon-grunt-plain colored",
+                "tooltip": "Grunt"
+            }
+        ]
+    },
+    {
+        "id": "011",
+        "title": "Personal Portfolio",
+        "thumbUrl": "http://placehold.it/1280x960",
+        "description": "card description lorum ipsum . . .",
+        "bannerUrl": "",
+        "content": "",
+        "techIcons": [
+            {
+                "cssClass": "devicon-react-original colored",
+                "tooltip": "React"
+            },
+            {
+                "cssClass": "devicon-sass-original colored",
+                "tooltip": "Sass"
+            },
+            {
+                "cssClass": "devicon-babel-plain",
+                "tooltip": "Babel"
+            }
+        ]
+    },
+    {
+        "id": "009",
+        "title": "Terraria Mod",
+        "thumbUrl": "http://placehold.it/1280x960",
+        "description": "card description lorum ipsum . . .",
+        "bannerUrl": "",
+        "content": "",
+        "techIcons": [
+            {
+                "cssClass": "devicon-csharp-plain colored",
+                "tooltip": "XNA Game Development in C#"
+            },
+            {
+                "cssClass": "fa fa-cog",
+                "tooltip": "Built with TModLoader"
+            }
+        ]
+    },
+    {
+        "id": "010",
+        "title": "Don't Starve Together Mod",
+        "thumbUrl": "http://placehold.it/1280x960",
+        "description": "card description lorum ipsum . . .",
+        "bannerUrl": "",
+        "content": "",
+        "techIcons": [
+            {
+                "cssClass": "devicon-photoshop-plain colored",
+                "tooltip": "PhotoShop"
+            },
+            {
+                "cssClass": "fa fa-cog",
+                "tooltip": "Lua"
+            },
+            {
+                "cssClass": "fa fa-cog",
+                "tooltip": "Spriter"
+            },
+            {
+                "cssClass": "fa fa-cog",
+                "tooltip": "Built with Don't Starve Mod Tools"
+            }
+        ]
+    }
+]
