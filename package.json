@@ -2,6 +2,7 @@
   "name": "ayrock-portfolio",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://ayrock-dev.github.io/ayrock-portfolio",
   "dependencies": {
     "bulma": "^0.5.3",
     "font-awesome": "^4.7.0",
