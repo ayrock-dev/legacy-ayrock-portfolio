@@ -1,16 +1,29 @@
 import React, { Component } from 'react'
-import { Link } from 'react-router-dom'
+import { Link, withRouter } from 'react-router-dom'
 import BulmaBurger from './bulma/BulmaBurger'
 
-export default class Header extends Component {
+class Header extends Component {
+  getCssClasses = () => {
+    const isHome = this.props.location.pathname === '/'
+    const brandClass = isHome ? 'brand-logo is-inverted' : 'brand-logo'
+    const buttonClass = isHome ? 'button is-primary is-inverted' : 'button is-primary'
+    const navbarClass = isHome ? 'navbar is-transparent' : 'navbar section'
+    return {
+      brandClass,
+      buttonClass,
+      navbarClass
+    }
+  }
+
   render() {
+    const { navbarClass, brandClass, buttonClass } = this.getCssClasses()
     return (
       <header>
-        <nav id="primary-nav" className="navbar is-transparent">
+        <nav id="primary-nav" className={navbarClass}>
           {/* mobile items */}
           <div className="navbar-brand">
             <Link className="navbar-item" to='/'>
-              <div className='brand-logo'></div>
+              <div className={brandClass}></div>
             </Link>
           </div>
     
@@ -19,10 +32,13 @@ export default class Header extends Component {
           {/* desktop items */}
           <div className="navbar-menu">
             <div className="navbar-end">
-              <Link className="navbar-item" to='/#objective'>Objective</Link>
-              <Link className="navbar-item" to='/#portfolio'>Portfolio</Link>
+              <a className="navbar-item">
+                <span className="icon is-medium">
+                  <i className="fa fa-github"></i>
+                </span>
+              </a>
               <span className="navbar-item">
-                <a className="button is-primary is-inverted">
+                <a className={buttonClass} href="https://s3.amazonaws.com/aws-website-ayrock-portfoliohosting-ogzv6/Eric+Lee-Resume-Sept-2017.pdf" target="blank">
                   <span className="icon">
                     <i className="fa fa-file-text"></i>
                   </span>
@@ -36,3 +52,5 @@ export default class Header extends Component {
     )
   }
 }
+
+export default withRouter(Header)

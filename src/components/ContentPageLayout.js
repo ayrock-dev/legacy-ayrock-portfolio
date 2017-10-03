@@ -1,16 +1,14 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom'
 import Header from './Header'
-import PortfolioDetail from './PortfolioDetail'
+import PortfolioDetail from './PortfolioDetail/PortfolioDetail'
 
 const ContentPageLayout = () => (
-    <div>
+    <div className="container">
       <Header />
-      <div className="container">
-        <Switch>
-          <Route path='/portfolio/:portfolioItemId' component={PortfolioDetail}/>
-        </Switch>
-      </div>
+      <Switch>
+        <Route path='/portfolio/:portfolioItemId' component={PortfolioDetail}/>
+      </Switch>
     </div>
   )
 
