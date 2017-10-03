@@ -3,18 +3,15 @@ import { Link } from 'react-router-dom'
 import BulmaBurger from './bulma/BulmaBurger'
 
 export default class Header extends Component {
-  getLogoClass = () => this.props.match.path === '/' ? 'brand-logo' : 'brand-logo inverted'
 
   render() {
-    const logoClass = this.getLogoClass()
-
     return (
       <header>
         <nav id="primary-nav" className="navbar is-transparent">
           {/* mobile items */}
           <div className="navbar-brand">
             <Link className="navbar-item" to='/'>
-              <div className={logoClass}></div>
+              <div className='brand-logo'></div>
             </Link>
           </div>
     
