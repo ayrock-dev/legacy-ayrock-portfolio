@@ -34,10 +34,4 @@ jobs:
           key: v1-dependencies-{{ checksum "package.json" }}
         
       # run tests!
-      # - run: yarn test
-
-  deployment:
-    production:
-      branch: master
-      commands:
-        - ./deploy-ghpages.sh build
+        - run: yarn test
