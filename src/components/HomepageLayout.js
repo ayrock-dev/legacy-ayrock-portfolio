@@ -9,7 +9,7 @@ export default class HomePageLayout extends Component {
       const { match } = this.props
       return (
         <div>
-          <HomeHero match={match} />
+          <HomeHero />
           <ObjectiveSection />
           <PortfolioSection />
           <Footer />

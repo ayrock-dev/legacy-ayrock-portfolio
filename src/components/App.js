@@ -8,7 +8,7 @@ export default class App extends Component {
     return (
       <Switch>
         <Route exact path='/'>
-          <HomePageLayout match={this.props.match} />
+          <HomePageLayout />
         </Route>
         <Route path='/portfolio' component={ContentPageLayout}/>
       </Switch>
