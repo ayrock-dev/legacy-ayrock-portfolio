@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom'
 import BulmaBurger from './bulma/BulmaBurger'
 
 export default class Header extends Component {
-
   render() {
     return (
       <header>
