@@ -215,7 +215,7 @@
                 "tooltip": "XNA Game Development in C#"
             },
             {
-                "cssClass": "fa fa-cog",
+                "cssClass": "fas fa-cog",
                 "tooltip": "Built with TModLoader"
             }
         ],
@@ -234,15 +234,15 @@
                 "tooltip": "PhotoShop"
             },
             {
-                "cssClass": "fa fa-cog",
+                "cssClass": "fas fa-cog",
                 "tooltip": "Lua"
             },
             {
-                "cssClass": "fa fa-cog",
+                "cssClass": "fas fa-cog",
                 "tooltip": "Spriter"
             },
             {
-                "cssClass": "fa fa-cog",
+                "cssClass": "fas fa-cog",
                 "tooltip": "Built with Don't Starve Mod Tools"
             }
         ],

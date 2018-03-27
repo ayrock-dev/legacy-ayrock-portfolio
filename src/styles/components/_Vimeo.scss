@@ -1,0 +1,20 @@
+.vimeo .vimeo-embed > iframe {
+
+    height: 240px;
+    width: 426px;
+
+    @media screen and (min-width: $tablet) {
+        height: 360px;
+        width: 640px;
+    }
+    
+    @media screen and (min-width: $desktop) {
+        height: 480px;
+        width: 854px;
+    }
+
+    @media screen and (min-width: $widescreen) {
+        height: 720px;
+        width: 1280px;
+    }
+}

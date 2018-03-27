@@ -1,7 +1,12 @@
-.title .fades {
-    transition: opacity 500ms linear;
-
-    &.fading {
-        opacity: 0;
-    }
+.hero {
+    .title {
+        font-weight: $weight-light;
+        .fades {
+            transition: opacity 500ms linear;
+        
+            &.fading {
+                opacity: 0;
+            }
+        }
+    } 
 }
