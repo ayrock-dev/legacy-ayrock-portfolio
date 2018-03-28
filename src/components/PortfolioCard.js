@@ -6,7 +6,7 @@ export default class PortfolioCard extends Component {
     getReadMoreLink = (id) => '/portfolio/' + id
 
     render() {
-        const { id, title, thumbUrl, description, content, techIcons } = this.props
+        const { id, title, thumbUrl, description, hasContent, techIcons } = this.props
 
         const readMoreLink = this.getReadMoreLink(id)
 
@@ -25,7 +25,7 @@ export default class PortfolioCard extends Component {
         return (
             <div className="card">
                 <div className="card-image">
-                    <figure className="image is-4by3">
+                    <figure className="image">
                         <img src={thumbUrl} alt="" />
                     </figure>
                 </div>
@@ -46,7 +46,7 @@ export default class PortfolioCard extends Component {
                         }
                     </div>
                 </div>
-                { content && content.length &&
+                { hasContent &&
                     <footer className="card-footer">
                         <Link 
                             to={readMoreLink} 
