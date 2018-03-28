@@ -33,7 +33,10 @@ class Header extends Component {
                         <Link className="navbar-item" to="/">
                             <div className={brandClass} />
                         </Link>
-                        <Link className="navbar-item" to="https://github.com/ayrock-dev">
+                        <Link
+                            className="navbar-item is-hidden-desktop"
+                            to="https://github.com/ayrock-dev"
+                        >
                             <span className="icon is-medium">
                                 <i className="fab fa-github fa-lg" />
                             </span>

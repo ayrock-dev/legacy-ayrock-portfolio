@@ -25,7 +25,7 @@ export default class PortfolioDetail extends Component {
             <div className="portfolio-detail-component">
                 <div className="section">
                     <Page {...portfolioItem} />
-                    <Link className="button" smooth to="/#portfolio">
+                    <Link className="button" smooth to={`${process.env.PUBLIC_URL}/#portfolio`}>
                         <span className="icon">
                             <i className="fas fa-arrow-left" />
                         </span>

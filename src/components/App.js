@@ -4,14 +4,14 @@ import HomePageLayout from './HomePageLayout'
 import ContentPageLayout from './ContentPageLayout'
 
 export default class App extends Component {
-  render() {
-    return (
-      <Switch>
-        <Route exact path='/'>
-          <HomePageLayout />
-        </Route>
-        <Route path='/portfolio' component={ContentPageLayout}/>
-      </Switch>
-    )
-  }
+    render() {
+        return (
+            <Switch>
+                <Route exact path={`${process.env.PUBLIC_URL}/`}>
+                    <HomePageLayout />
+                </Route>
+                <Route path={`${process.env.PUBLIC_URL}/portfolio`} component={ContentPageLayout} />
+            </Switch>
+        )
+    }
 }

@@ -7,7 +7,10 @@ const ContentPageLayout = () => (
     <div>
         <Header />
         <Switch>
-            <Route path="/portfolio/:portfolioItemId" component={PortfolioDetail} />
+            <Route
+                path={`${process.env.PUBLIC_URL}/portfolio/:portfolioItemId`}
+                component={PortfolioDetail}
+            />
         </Switch>
     </div>
 )
