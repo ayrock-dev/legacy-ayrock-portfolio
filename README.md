@@ -6,7 +6,7 @@
 
 
 <a href="https://travis-ci.org/ayrock-dev/ayrock-portfolio">
-  <img src="https://travis-ci.org/ayrock-dev/ayrock-portfolio.svg?branch=master" alt="Build Status" width="128" height="24">
+  <img src="https://travis-ci.org/ayrock-dev/ayrock-portfolio.svg?branch=master" alt="Build Status">
 </a>
 
 ## Development 
