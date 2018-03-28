@@ -2,7 +2,7 @@
     {
         "id": "001",
         "title": "PulaTech",
-        "thumbUrl": "/img/portfolio/pulatech-com-thumb.png",
+        "thumbUrl": "img/portfolio/pulatech-com-thumb.png",
         "description": "Implementation and design of WordPress-based marketing site for PulaTech. Work done as a member of the PulaTech team.",
         "bannerUrl": "",
         "hasContent": true,
@@ -29,7 +29,7 @@
     {
         "id": "002",
         "title": "Winsor Learning",
-        "thumbUrl": "/img/portfolio/winsor-learning-com-thumb.png",
+        "thumbUrl": "img/portfolio/winsor-learning-com-thumb.png",
         "description": "Implementation and design of Joomla!-based marketing site for Winsor Learning. Work done under PulaTech.",
         "bannerUrl": "",
         "content": "",
@@ -56,7 +56,7 @@
     {
         "id": "003",
         "title": "Winsor Learning eCommerce",
-        "thumbUrl": "/img/portfolio/winsor-learning-shop-thumb.png",
+        "thumbUrl": "img/portfolio/winsor-learning-shop-thumb.png",
         "description": "PrestaShop eCommerce development to create a custom checkout and company inventory experience for Windsor Learning. Work done under PulaTech.",
         "bannerUrl": "",
         "content": "",
@@ -113,7 +113,7 @@
     {
         "id": "006",
         "title": "Cambria DragonVision",
-        "thumbUrl": "/img/portfolio/dragonvision-thumb.png",
+        "thumbUrl": "img/portfolio/dragonvision-thumb.png",
         "description": "Cambria's DragonVision Suite allows consumers to visualize Cambria Quartz Surfaces in kitchen spaces. Development done in AngularJS as a member of the Cambria team. Available online today.",
         "bannerUrl": "",
         "content": "",
@@ -136,7 +136,7 @@
     {
         "id": "007",
         "title": "Cambria Design Palette",
-        "thumbUrl": "/img/portfolio/designpalette-thumb.png",
+        "thumbUrl": "img/portfolio/designpalette-thumb.png",
         "description": "The Cambria Design Palette brings simple, at-a-glance visuals of Cambria Quartz Services to consumers. Development done in AngularJS as a member of the Cambria team. Available online today.",
         "bannerUrl": "",
         "content": "",
@@ -159,7 +159,7 @@
     {
         "id": "008",
         "title": "Davis Family Dairies",
-        "thumbUrl": "/img/portfolio/dairies-thumb.png",
+        "thumbUrl": "img/portfolio/dairies-thumb.png",
         "description": "Davis Family Dairies marketing site implementation and mentorship over junior engineers working on this replatforming project. Development done in AngularJS and Wordpress as a member of the Cambria team. Available online today.",
         "bannerUrl": "",
         "content": "",
