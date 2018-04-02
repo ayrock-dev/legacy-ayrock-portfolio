@@ -83,7 +83,7 @@
     {
         "id": "004",
         "title": "Sonday System Companion App",
-        "thumbUrl": "http://placehold.it/1280x960",
+        "thumbUrl": "https://placehold.it/1280x960",
         "description": "UX and graphic design for the Sonday System Companion app - an interactive study tool which helps struggling readers to learn. Work done under PulaTech for client Winsor Learning.",
         "bannerUrl": "",
         "content": "",
@@ -98,7 +98,7 @@
     {
         "id": "005",
         "title": "Rally Roll",
-        "thumbUrl": "http://placehold.it/1280x960",
+        "thumbUrl": "https://placehold.it/1280x960",
         "description": "UX and Unity development for the iOS mobile Game Rally Roll. Work done for Reyn Guyer Creative Group.",
         "bannerUrl": "",
         "content": "",
@@ -182,7 +182,7 @@
     {
         "id": "011",
         "title": "Personal Portfolio",
-        "thumbUrl": "http://placehold.it/1280x960",
+        "thumbUrl": "https://placehold.it/1280x960",
         "description": "Personal project to explore React tools and present a professional portfolio. This project was challenging as it was my first use of Babel where my experience lies with TypeScript.",
         "bannerUrl": "",
         "content": "",
@@ -205,7 +205,7 @@
     {
         "id": "009",
         "title": "Terraria Mod",
-        "thumbUrl": "http://placehold.it/1280x960",
+        "thumbUrl": "https://placehold.it/1280x960",
         "description": "After a late night of theory-crafting new weapon ideas with friends for the game Terraria, I wrote my own item for the game. Built on TModLoader and written in C#.",
         "bannerUrl": "",
         "content": "",
@@ -224,7 +224,7 @@
     {
         "id": "010",
         "title": "Don't Starve Together Mod",
-        "thumbUrl": "http://placehold.it/1280x960",
+        "thumbUrl": "https://placehold.it/1280x960",
         "description": "Created a custom game component and prefab to the game Don't Starve Together. While the art and component is complete, integration into the game is a WIP. Built with Don't Starve Mod Tools and written in Lua.",
         "bannerUrl": "",
         "content": "",
