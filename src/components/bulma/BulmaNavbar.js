@@ -3,7 +3,7 @@ import BulmaNavbarBrand from './BulmaNavbarBrand'
 import BulmaNavbarMenu from './BulmaNavbarMenu'
 import BulmaNavbarBurger from './BulmaNavbarBurger'
 
-const BulmaNavbar = ({ classes, ...props }) => {
+function BulmaNavbar({ classes, ...props }) {
     return <header className={classes}>{props.children}</header>
 }
 

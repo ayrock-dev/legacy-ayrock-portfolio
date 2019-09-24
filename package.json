@@ -4,16 +4,16 @@
   "private": true,
   "homepage": "https://ayrock-dev.github.io/ayrock-portfolio/",
   "dependencies": {
-    "@fortawesome/fontawesome": "^1.1.4",
-    "bulma": "^0.6.2",
-    "npm-run-all": "^4.1.1",
-    "prop-types": "^15.6.0",
-    "react": "^16.0.0",
-    "react-dom": "^16.0.0",
-    "react-router-dom": "^4.2.2",
-    "react-router-hash-link": "^1.2.0",
-    "react-scripts": "1.0.14",
-    "react-vimeo": "^2.0.0"
+    "@fortawesome/fontawesome-free": "5.11.2",
+    "bulma": "0.7.5",
+    "npm-run-all": "4.1.5",
+    "prop-types": "15.7.2",
+    "react": "16.9.0",
+    "react-dom": "16.9.0",
+    "react-router-dom": "5.0.1",
+    "react-router-hash-link": "1.2.2",
+    "react-scripts": "3.1.2",
+    "react-vimeo": "2.0.0"
   },
   "scripts": {
     "build-css": "node-sass-chokidar --include-path ./src --include-path ./node_modules src/ -o src/",
@@ -22,12 +22,24 @@
     "start": "npm-run-all -p watch-css start-js",
     "build": "npm run build-css && react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "deploy" : "npm run build && gh-pages -d build",
+    "deploy": "npm run build && gh-pages -d build",
     "eject": "react-scripts eject"
   },
   "devDependencies": {
-    "gh-pages": "^1.1.0",
-    "node-sass-chokidar": "^1.2.2",
-    "sass-loader": "^6.0.7"
+    "gh-pages": "2.1.1",
+    "node-sass-chokidar": "1.3.5",
+    "sass-loader": "8.0.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
