@@ -14,7 +14,7 @@ function Header({ location }) {
     const buttonClass = isHome ? 'button is-primary is-inverted' : 'button is-primary'
     const navbarClass = isHome ? 'navbar is-transparent' : 'navbar is-primary'
 
-    const resumeLink = 'https://s3.amazonaws.com/aws-website-ayrock-portfoliohosting-ogzv6/Eric+Lee-Resume-Sept-2017.pdf'
+    const resumeLink = 'https://aws-website-ayrock-portfoliohosting-ogzv6.s3.amazonaws.com/EricLee-Resume-Sept-2019.pdf'
 
     return (
         <BulmaNavbar classes={navbarClass}>
