@@ -6,11 +6,11 @@ import PortfolioSection from './PortfolioSection'
 
 export default function HomePageLayout() {
     return (
-    <div>
-        <HomeHero />
-        <ObjectiveSection />
-        <PortfolioSection />
-        <Footer />
-    </div>
+        <div>
+            <HomeHero />
+            <ObjectiveSection />
+            <PortfolioSection />
+            <Footer />
+        </div>
     )
 }
