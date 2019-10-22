@@ -1,9 +1,9 @@
 import React from 'react'
 import { render } from 'react-dom'
 import { BrowserRouter } from 'react-router-dom'
-import registerServiceWorker from './components/registerServiceWorker'
+import * as serviceWorker from './components/serviceWorker'
 import App from './components/App'
-import './styles/index.css'
+import './styles/index.scss'
 
 function hashLinkScroll() {
     const { hash } = window.location
@@ -23,4 +23,7 @@ render(
     document.getElementById('root')
 )
 
-registerServiceWorker()
+// If you want your app to work offline and load faster, you can change
+// unregister() to register() below. Note this comes with some pitfalls.
+// Learn more about service workers: https://bit.ly/CRA-PWA
+serviceWorker.unregister();

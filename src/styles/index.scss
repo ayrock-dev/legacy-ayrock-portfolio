@@ -1,11 +1,5 @@
-// style framework
-@import "./bulma/sass/utilities/initial-variables";
-@import "./bulma/bulma";
-
-// globals
-@import 'global';
+@import "vars";
+@import "bulma/bulma";
 
 // components
-@import 'components/HomeHero';
-@import 'components/Footer';
-@import 'components/Vimeo';
+@import "components/Vimeo";

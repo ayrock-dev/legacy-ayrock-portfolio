@@ -1,18 +1,16 @@
-import React, { Component } from 'react'
+import React from 'react'
 import HomeHero from './HomeHero'
 import Footer from './Footer'
 import ObjectiveSection from './ObjectiveSection'
 import PortfolioSection from './PortfolioSection'
 
-export default class HomePageLayout extends Component {
-    render() {
-      return (
+export default function HomePageLayout() {
+    return (
         <div>
-          <HomeHero />
-          <ObjectiveSection />
-          <PortfolioSection />
-          <Footer />
+            <HomeHero />
+            <ObjectiveSection />
+            <PortfolioSection />
+            <Footer />
         </div>
-      );
-    }
-  }
+    )
+}

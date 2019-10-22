@@ -1,7 +1,5 @@
 import React from 'react'
 
-const BulmaNavbarBrand = ({ ...props }) => {
+export default function BulmaNavbarBrand(props) {
     return <div className="navbar-brand">{props.children}</div>
 }
-
-export default BulmaNavbarBrand

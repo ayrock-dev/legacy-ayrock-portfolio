@@ -1,9 +1,11 @@
-footer {
-    .icon {
+@import "styles/vars";
+
+.footer {
+    :global(.icon) {
         font-size: $size-4;
         vertical-align: middle;
 
-        &.no-color-change {
+        &:global(.no-color-change) {
             color: $text;
         }
     }

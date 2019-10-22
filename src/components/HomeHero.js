@@ -1,64 +1,56 @@
-import React, { Component } from 'react'
+import React, { useState } from 'react'
+import classNames from 'classnames'
+import useInterval from 'use-interval'
 import Header from './Header'
+import styles from './HomeHero.module.scss'
+import Brand from './Brand';
 
 const personas = [
     'a Full Stack Developer',
     'a JavaScript Guru',
     'an Agile Team Member',
-    'a Game Modder',
+    'a Mentor to Junior Developers',
     'an Open Source Contributer'
 ]
 
-export default class HomeHero extends Component {
-    constructor(props) {
-        super(props)
-        this.state = {
-            personaIndex: 0,
-            personaText: personas[0],
-            fading: false
-        }
-    }
+export default function HomeHero() {
+    const [personaIndex, setPersonaIndex] = useState(0)
+    const [personaText, setPersonaText] = useState(personas[personaIndex])
+    const [fading, setFading] = useState(false)
 
-    componentDidMount() {
-        this.timerID = setInterval(() => this.changePersona(), 3000)
-    }
-
-    componentWillUnmount() {
-        clearInterval(this.timerID)
-    }
-
-    changePersona() {
-        this.setState({ fading: true })
-        const next = this.state.personaIndex + 1
-        const i = next < personas.length ? next : 0
-        setTimeout(_ => {
-            this.setState({
-                personaIndex: i,
-                personaText: personas[i],
-                fading: false
-            })
+    useInterval(() => {
+        setFading(true)
+        const next = personaIndex + 1
+        const wrapped = (next + personas.length) % personas.length
+        setTimeout(() => {
+            setPersonaIndex(wrapped)
+            setPersonaText(personas[wrapped])
+            setFading(false)
         }, 500)
-    }
+    }, 3000)
 
-    render() {
-        const { fading, personaText } = this.state
-
-        return (
-            <section className="hero is-primary is-bold is-fullheight">
-                <div className="hero-head">
-                    <Header />
+    return (
+        <section className={classNames('hero is-primary is-bold is-fullheight', styles.hero)}>
+            <div className="hero-head">
+                <Header />
+            </div>
+            <div className="hero-body">
+                <div className="container">
+                    <h1 className="title">
+                        <span>
+                            <Brand /> is&nbsp;
+                        </span>
+                        <span
+                            className={classNames({
+                                'fades fading': fading,
+                                'fades': !fading
+                            })}
+                        >
+                            {personaText}
+                        </span>
+                    </h1>
                 </div>
-                <div className="hero-body">
-                    <div className="container">
-                        <h1 className="title">
-                            Eric Lee is&nbsp;
-                            <span className={`${fading ? 'fades fading' : 'fades'}`}>
-                                {personaText}
-                            </span>
-                        </h1>
-                    </div>
-                </div>
-            </section>
-        )
-    }
+            </div>
+        </section>
+    )
 }

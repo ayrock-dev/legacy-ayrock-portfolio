@@ -1,0 +1,20 @@
+@import "styles/vars";
+
+.hero {
+    :global(.title) {
+        font-weight: $weight-light;
+
+        :global(.hero-image) {
+            width: 256px;
+            height: 256px;
+        }
+
+        :global(.fades) {
+            transition: opacity 500ms linear;
+        
+            &:global(.fading) {
+                opacity: 0;
+            }
+        }
+    } 
+}
