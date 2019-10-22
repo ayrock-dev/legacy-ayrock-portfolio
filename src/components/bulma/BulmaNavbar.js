@@ -3,8 +3,8 @@ import BulmaNavbarBrand from './BulmaNavbarBrand'
 import BulmaNavbarMenu from './BulmaNavbarMenu'
 import BulmaNavbarBurger from './BulmaNavbarBurger'
 
-function BulmaNavbar({ classes, ...props }) {
-    return <header className={classes}>{props.children}</header>
+function BulmaNavbar({ className, ...props }) {
+    return <header className={className}>{props.children}</header>
 }
 
 export { BulmaNavbar, BulmaNavbarBrand, BulmaNavbarMenu, BulmaNavbarBurger }

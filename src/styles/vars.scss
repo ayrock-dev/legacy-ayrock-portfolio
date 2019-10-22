@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+
+// Custom variables
+$font-brand: 'Lobster', cursive;
+
+$purple: #8A4D76;
+$pink: #FA7C91;
+$beige-lighter: #EFF0EB;
+
+// Update Bulma's global variables
+$primary: $purple;
+$link: $pink;
+
+// Update some of Bulma's component variables
+$body-background-color: $beige-lighter;
+
+
+@import "bulma/sass/utilities/_all.sass";

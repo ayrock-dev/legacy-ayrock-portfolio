@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React from 'react'
 import PortfolioCard from './PortfolioCard'
 import PortfolioAPI from './PortfolioAPI'
 

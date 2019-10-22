@@ -7,31 +7,41 @@ import {
     BulmaNavbarBurger,
     BulmaNavbarMenu
 } from './bulma/BulmaNavbar'
+import Brand from './Brand';
 
 function Header({ location }) {
     const isHome = location.pathname === '/'
-    const brandClass = isHome ? 'brand-logo is-inverted' : 'brand-logo'
     const buttonClass = isHome ? 'button is-primary is-inverted' : 'button is-primary'
     const navbarClass = isHome ? 'navbar is-transparent' : 'navbar is-primary'
 
     const resumeLink = 'https://aws-website-ayrock-portfoliohosting-ogzv6.s3.amazonaws.com/EricLee-Resume-Sept-2019.pdf'
 
     return (
-        <BulmaNavbar classes={navbarClass}>
+        <BulmaNavbar className={navbarClass}>
             <div className="container">
                 {/* mobile items */}
                 <BulmaNavbarBrand>
                     <Link className="navbar-item" to="/">
-                        <div className={brandClass} />
+                        <Brand className="title" />
                     </Link>
-                    <Link
+                    <a
                         className="navbar-item is-hidden-desktop"
-                        to="https://github.com/ayrock-dev"
+                        href="https://github.com/ayrock-dev"
+                        target="blank"
                     >
                         <span className="icon is-medium">
                             <i className="fab fa-github fa-lg" />
                         </span>
-                    </Link>
+                    </a>
+                    <a
+                        className="navbar-item is-hidden-desktop"
+                        href="https://www.linkedin.com/eric-lee-dev"
+                        target="blank"
+                    >
+                        <span className="icon is-medium">
+                            <i className="fab fa-linkedin-in fa-lg" />
+                        </span>
+                    </a>
 
                     <BulmaNavbarBurger dataTarget="primaryMenu" />
                 </BulmaNavbarBrand>
@@ -47,11 +57,25 @@ function Header({ location }) {
                         </Link>
                     </div>
                     <div className="navbar-end">
-                        <a className="navbar-item" href="https://github.com/ayrock-dev">
+                        <a
+                            className="navbar-item"
+                            href="https://github.com/ayrock-dev"
+                            target="blank"
+                        >
                             <span className="icon is-medium">
                                 <i className="fab fa-github fa-lg" />
                             </span>
                             <span className="is-hidden-desktop">GitHub</span>
+                        </a>
+                        <a
+                            className="navbar-item"
+                            href="https://www.linkedin.com/eric-lee-dev"
+                            target="blank"
+                        >
+                            <span className="icon is-medium">
+                                <i className="fab fa-linkedin-in fa-lg" />
+                            </span>
+                            <span className="is-hidden-desktop">LinkedIn</span>
                         </a>
                         <span className="navbar-item">
                             <a className={buttonClass} href={resumeLink} target="blank">

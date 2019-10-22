@@ -4,248 +4,48 @@
         "title": "PulaTech",
         "thumbUrl": "img/portfolio/pulatech-com-thumb.png",
         "description": "Implementation and design of WordPress-based marketing site for PulaTech. Work done as a member of the PulaTech team.",
-        "bannerUrl": "",
-        "hasContent": true,
-        "techIcons": [
-            {
-                "cssClass": "devicon-wordpress-plain",
-                "tooltip": "WordPress"
-            },
-            {
-                "cssClass": "devicon-bootstrap-plain colored",
-                "tooltip": "Bootstrap"
-            },
-            {
-                "cssClass": "devicon-sass-original colored",
-                "tooltip": "Sass"
-            },
-            {
-                "cssClass": "devicon-javascript-plain colored",
-                "tooltip": "JavaScript"
-            }
-        ],
-        "order": 1300
+        "order": 500
     },
     {
         "id": "002",
-        "title": "Winsor Learning",
-        "thumbUrl": "img/portfolio/winsor-learning-com-thumb.png",
-        "description": "Implementation and design of Joomla!-based marketing site for Winsor Learning. Work done under PulaTech.",
-        "bannerUrl": "",
-        "content": "",
-        "techIcons": [
-            {
-                "cssClass": "devicon-html5-plain colored",
-                "tooltip": "HTML5"
-            },
-            {
-                "cssClass": "devicon-bootstrap-plain colored",
-                "tooltip": "Bootstrap"
-            },
-            {
-                "cssClass": "devicon-sass-original colored",
-                "tooltip": "Sass"
-            },
-            {
-                "cssClass": "devicon-javascript-plain colored",
-                "tooltip": "JavaScript"
-            }
-        ],
-        "order": 1100
-    },
-    {
-        "id": "003",
-        "title": "Winsor Learning eCommerce",
-        "thumbUrl": "img/portfolio/winsor-learning-shop-thumb.png",
-        "description": "PrestaShop eCommerce development to create a custom checkout and company inventory experience for Windsor Learning. Work done under PulaTech.",
-        "bannerUrl": "",
-        "content": "",
-        "techIcons": [
-            {
-                "cssClass": "devicon-html5-plain colored",
-                "tooltip": "HTML5"
-            },
-            {
-                "cssClass": "devicon-bootstrap-plain colored",
-                "tooltip": "Bootstrap"
-            },
-            {
-                "cssClass": "devicon-sass-original colored",
-                "tooltip": "Sass"
-            },
-            {
-                "cssClass": "devicon-javascript-plain colored",
-                "tooltip": "JavaScript"
-            }
-        ],
-        "order": 1000
-    },
-    {
-        "id": "004",
-        "title": "Sonday System Companion App",
-        "thumbUrl": "https://placehold.it/1280x960",
-        "description": "UX and graphic design for the Sonday System Companion app - an interactive study tool which helps struggling readers to learn. Work done under PulaTech for client Winsor Learning.",
-        "bannerUrl": "",
-        "content": "",
-        "techIcons": [
-            {
-                "cssClass": "devicon-photoshop-plain colored",
-                "tooltip": "PhotoShop"
-            }
-        ],
-        "order": 1200
-    },
-    {
-        "id": "005",
-        "title": "Rally Roll",
-        "thumbUrl": "https://placehold.it/1280x960",
-        "description": "UX and Unity development for the iOS mobile Game Rally Roll. Work done for Reyn Guyer Creative Group.",
-        "bannerUrl": "",
-        "content": "",
-        "techIcons": [
-            {
-                "cssClass": "devicon-photoshop-plain colored",
-                "tooltip": "PhotoShop"
-            }
-        ],
-        "order": 900
-    },
-    {
-        "id": "006",
         "title": "Cambria DragonVision",
         "thumbUrl": "img/portfolio/dragonvision-thumb.png",
         "description": "Cambria's DragonVision Suite allows consumers to visualize Cambria Quartz Surfaces in kitchen spaces. Development done in AngularJS as a member of the Cambria team. Available online today.",
-        "bannerUrl": "",
-        "content": "",
-        "techIcons": [
-            {
-                "cssClass": "devicon-angularjs-plain colored",
-                "tooltip": "Angular"
-            },
-            {
-                "cssClass": "devicon-bootstrap-plain colored",
-                "tooltip": "Bootstrap"
-            },
-            {
-                "cssClass": "devicon-sass-original colored",
-                "tooltip": "Sass"
-            }
-        ],
-        "order": 1500
+        "order": 400
     },
     {
-        "id": "007",
+        "id": "003",
         "title": "Cambria Design Palette",
         "thumbUrl": "img/portfolio/designpalette-thumb.png",
         "description": "The Cambria Design Palette brings simple, at-a-glance visuals of Cambria Quartz Services to consumers. Development done in AngularJS as a member of the Cambria team. Available online today.",
-        "bannerUrl": "",
-        "content": "",
-        "techIcons": [
-            {
-                "cssClass": "devicon-angularjs-plain colored",
-                "tooltip": "Angular"
-            },
-            {
-                "cssClass": "devicon-bootstrap-plain colored",
-                "tooltip": "Bootstrap"
-            },
-            {
-                "cssClass": "devicon-sass-original colored",
-                "tooltip": "Sass"
-            }
-        ],
-        "order": 1400
+        "order": 300
     },
     {
-        "id": "008",
+        "id": "004",
         "title": "Davis Family Dairies",
         "thumbUrl": "img/portfolio/dairies-thumb.png",
         "description": "Davis Family Dairies marketing site implementation and mentorship over junior engineers working on this replatforming project. Development done in AngularJS and Wordpress as a member of the Cambria team. Available online today.",
-        "bannerUrl": "",
-        "content": "",
-        "techIcons": [
-            {
-                "cssClass": "devicon-wordpress-plain",
-                "tooltip": "WordPress"
-            },
-            {
-                "cssClass": "devicon-bootstrap-plain colored",
-                "tooltip": "Bootstrap"
-            },
-            {
-                "cssClass": "devicon-sass-original colored",
-                "tooltip": "Sass"
-            }
-        ],
-        "order": 1300
-    },
-    {
-        "id": "011",
-        "title": "Personal Portfolio",
-        "thumbUrl": "https://placehold.it/1280x960",
-        "description": "Personal project to explore React tools and present a professional portfolio. This project was challenging as it was my first use of Babel where my experience lies with TypeScript.",
-        "bannerUrl": "",
-        "content": "",
-        "techIcons": [
-            {
-                "cssClass": "devicon-react-original colored",
-                "tooltip": "React"
-            },
-            {
-                "cssClass": "devicon-sass-original colored",
-                "tooltip": "Sass"
-            },
-            {
-                "cssClass": "devicon-babel-plain",
-                "tooltip": "Babel"
-            }
-        ],
-        "order": 800
-    },
-    {
-        "id": "009",
-        "title": "Terraria Mod",
-        "thumbUrl": "https://placehold.it/1280x960",
-        "description": "After a late night of theory-crafting new weapon ideas with friends for the game Terraria, I wrote my own item for the game. Built on TModLoader and written in C#.",
-        "bannerUrl": "",
-        "content": "",
-        "techIcons": [
-            {
-                "cssClass": "devicon-csharp-plain colored",
-                "tooltip": "XNA Game Development in C#"
-            },
-            {
-                "cssClass": "fas fa-cog",
-                "tooltip": "Built with TModLoader"
-            }
-        ],
         "order": 600
     },
     {
-        "id": "010",
-        "title": "Don't Starve Together Mod",
+        "id": "005",
+        "title": "Personal Portfolio",
         "thumbUrl": "https://placehold.it/1280x960",
-        "description": "Created a custom game component and prefab to the game Don't Starve Together. While the art and component is complete, integration into the game is a WIP. Built with Don't Starve Mod Tools and written in Lua.",
-        "bannerUrl": "",
-        "content": "",
-        "techIcons": [
-            {
-                "cssClass": "devicon-photoshop-plain colored",
-                "tooltip": "PhotoShop"
-            },
-            {
-                "cssClass": "fas fa-cog",
-                "tooltip": "Lua"
-            },
-            {
-                "cssClass": "fas fa-cog",
-                "tooltip": "Spriter"
-            },
-            {
-                "cssClass": "fas fa-cog",
-                "tooltip": "Built with Don't Starve Mod Tools"
-            }
-        ],
+        "description": "Personal project to demonstrate use of React environment.",
         "order": 700
+    },
+    {
+        "id": "005",
+        "title": "Best Buy Total Tech Support and Geeksquad Services",
+        "thumbUrl": "https://placehold.it/1280x960",
+        "description": "Created scheduling portals for in-home and in-store repairs, tools for customers to find customer support for their purchases, and self-service payment interfaces for Geek Squad and Best Buy Total Tech Support.",
+        "order": 200
+    },
+    {
+        "id": "006",
+        "title": "Best Buy Live Chat",
+        "thumbUrl": "https://placehold.it/1280x960",
+        "description": "Created new Best Buy live chat platform – used by 1.3 million customers each month. Integrations included chatting with an AI chat-bot platform, 24/7 customer support, and GeekSquad agents in real time. Work done as a lead developer on the Best Buy chat development team.",
+        "order": 100
     }
 ]

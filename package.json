@@ -6,11 +6,14 @@
   "dependencies": {
     "@fortawesome/fontawesome-free": "5.11.2",
     "bulma": "0.7.5",
+    "classnames": "2.2.6",
+    "node-sass": "4.12.0",
     "react": "16.9.0",
     "react-dom": "16.9.0",
+    "react-router-dom": "5.1.2",
     "react-router-hash-link": "1.2.2",
     "react-scripts": "3.1.2",
-    "react-vimeo": "2.0.0"
+    "use-interval": "^1.1.0"
   },
   "devDependencies": {
     "gh-pages": "2.1.1"

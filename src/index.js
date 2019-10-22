@@ -3,7 +3,7 @@ import { render } from 'react-dom'
 import { BrowserRouter } from 'react-router-dom'
 import * as serviceWorker from './components/serviceWorker'
 import App from './components/App'
-import './styles/index.css'
+import './styles/index.scss'
 
 function hashLinkScroll() {
     const { hash } = window.location

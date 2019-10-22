@@ -1,8 +1,10 @@
 import React from 'react'
+import classNames from 'classnames'
+import styles from './Footer.module.scss'
 
 export default function Footer() {
     return (
-        <footer className="footer">
+        <footer className={classNames('footer', styles.footer)}>
             <div className="container">
                 <div className="content">
                     <p>
